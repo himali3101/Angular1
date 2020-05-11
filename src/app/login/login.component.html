@@ -1,0 +1,14 @@
+<h2>login Form </h2>
+
+
+User Name : <input type="text" #userName  > 
+<br>
+password : <input type="password" #password >
+<br>
+user Type : <input type="userType" #userType >
+<br>
+<input type="submit" (click) = "login(userName.value, password.value, userType.value) " >
+
+<a  routerLink ="/signup">New User (Sign Up)</a>
+
+
